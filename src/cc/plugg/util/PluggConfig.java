@@ -11,11 +11,10 @@ public class PluggConfig extends Config {
 		super(new File(FileUtil.getFolder(), "bot-config.yml"));
 	}
 	
-	
 	public void load() {
 		for(Field f : StringUtil.class.getDeclaredFields()) {
 			if(f.isAccessible()) {
-				if(this.contains(f.getName().toLowerCase().replaceAll("_", "-")))
+				if(this.contains(f.getName().toLowerCase().replaceAll("_", ".")))
 					try {
 						f.set(null, getString(f.getName().toLowerCase().replaceAll("_", "-")));
 					} catch (IllegalArgumentException e) {
@@ -25,14 +24,13 @@ public class PluggConfig extends Config {
 					}
 				else {
 					try {
-						this.set(f.getName().toLowerCase().replaceAll("_", "-"), f.get(null).toString());
+						this.set(f.getName().toLowerCase().replaceAll("_", "."), f.get(null).toString());
 					} catch (IllegalArgumentException | IllegalAccessException e) {
 						e.printStackTrace();
 					}
 				}
 			}
 		}
-		
 	}
 
 }
