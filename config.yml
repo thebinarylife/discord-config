@@ -1,0 +1,57 @@
+discord:
+    channel:
+strings:
+    util:
+        prefixes:
+            plugg: [ plugg. \uD83D\uDD0C ]
+            error: [ ERROR ]
+            success: [ SUCCESS ]
+            validation: [ VALIDATED ]
+        indicator:
+            email: [EMAIL]
+    msgs:
+        registration:
+            welcome: Welcome to the official Plugg Management Community!\nWe're happy to that you're joining us today! Before we get you started, let's plugg you in! :)\n\nWhat name do you use in the artistic community?
+            name:
+                confirmation: 
+                - Welcome [NAME]...
+                - 
+                - 
+                - 
+            email:
+                confirm: [EMAIL], is this correct? 
+                confirmed: Perfect! Email is all good and tidy. We'll keep this in a safe place, so no one can get to it.
+                subscribe: Plugg also sends out emails to our community members to update them on all plugg.mgmt happenings, including new releases, sounds, tracks and much more. Should we plugg you in?
+                invalid: That is not a valid email address! Please try again.
+            instagram:
+                prompt: As an creative, we know instagram is a great way of connecting with other creatives. Here at plugg.mgmt, we want everyone to connect with each other as easily as possible. Once you input your username below. Your instagram will be displayed for other users to see as they interact with you, helping you develop a community of your own! (IF you do not have an instagram, reply "NO INSTAGRAM").
+                confirmed: Lookin' spiffy! \\uD83E\\uDD13
+            category: 
+                msg: What kind of kind of creative are you?
+                friend:
+                    description: You're a visitor of the server. You just want to join the community and get in on the fun! Ain't nothin' wrong with that :) Happy to have you.
+                    emoji: \uD83D\\uDE47
+                producer:
+                    description: You work with artists to help develop and craft their sound. Honing in on the best sounds, samples and much more, you're hear to meet your people! 
+                    emoji: \uD83D\\uDCBB
+                artist:
+                    description: You're an artist at heart, you create music for others to enjoy and love expressing yourself through words, emotions, and feeling.
+                    emoji: \uD83C\\uDF99\\uFE0F
+                ar:
+                    description: You're a true developer of vibes. You work with creatives of all kinds to enhance creative projects through your lens of success.
+                    emoji: \uD83D\\uDCBF
+                ga:
+                    description: You develop the visuals for all to see. With your special eye, you are able to capture moments, that actively captures those who see it.
+                    emoji: \uD83C\\uDFA5
+            finished: Welcome to the plugg.mgmt family. You are now plugged in. If you need anything feel free to ask the moderators and admins for help.
+                
+        
+    
+    
+    
+    
+    # name
+    # email
+    # instagram
+    # category
+    # finished
