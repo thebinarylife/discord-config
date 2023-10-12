@@ -4,6 +4,11 @@ import java.util.regex.Pattern;
 
 public class StringUtil {
 	
+	public static String STRINGS_UTIL_PREFIXES_PLUGG;
+	public static String STRINGS_UTIL_PREFIXES_ERROR;
+	public static String STRINGS_UTIL_PREFIXES_SUCCESS;
+	public static String STRINGS_UTIL_PREFIXES_VALIDATION;
+	
 	public static String STRINGS_MSGS_WELCOME;
 	public static String STRINGS_MSGS_NAME_CONFIRMATION;
 	public static String STRINGS_MSGS_CATEGORY;
