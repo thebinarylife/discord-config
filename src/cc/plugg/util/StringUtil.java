@@ -9,14 +9,15 @@ public class StringUtil {
 	public static String STRINGS_UTIL_PREFIXES_SUCCESS;
 	public static String STRINGS_UTIL_PREFIXES_VALIDATION;
 	
-	public static String STRINGS_MSGS_WELCOME;
-	public static String STRINGS_MSGS_NAME_CONFIRMATION;
-	public static String STRINGS_MSGS_CATEGORY;
-	public static String STRINGS_MSGS_INSTAGRAM_ASK;
+	public static String STRINGS_MSGS_REGISTRATION_WELCOME;
+	public static String STRINGS_MSGS_REGISTRATION_NAME_CONFIRMATION;
 	
-	public static String STRINGS_MSGS_EMAIL_CONFIRMATION;
-	public static String STRINGS_MSGS_EMAIL_VALID;
-	public static String STRINGS_MSGS_EMAIL_INVALID;
+	public static String STRINGS_MSGS_REGISTRATION_EMAIL_CONFIRMATION;
+	public static String STRINGS_MSGS_REGISTRATION_EMAIL_VALID;
+	public static String STRINGS_MSGS_REGISTRATION_EMAIL_INVALID;
+	
+	public static String STRINGS_MSGS_REGISTRATION_CATEGORY;
+	public static String STRINGS_MSGS_REGISTRATION_INSTAGRAM_PROMPT;
 	
 	public static String STRINGS_MSGS_LOGIN_FINISHED;
 	
