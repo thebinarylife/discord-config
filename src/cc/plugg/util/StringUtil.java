@@ -50,5 +50,16 @@ public class StringUtil {
 	public static boolean isValidInstagramHandle(String handle) {
 		return Pattern.compile(instagramRegexPattern).matcher(handle).matches();
 	}
+	
+	public static boolean isClean(String phrase) {
+		phrase.toLowerCase().replaceAll("3", "e").replaceAll("!", "i").replaceAll("@", "a");
+		
+		if(phrase.contains("shit") || phrase.contains("nigger") || phrase.contains("nigga") || phrase.contains("cunt")
+				|| phrase.contains("gay"))
+			return false;
+		
+		return true;
+	}
+
 
 }
